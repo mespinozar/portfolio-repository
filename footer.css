@@ -1,0 +1,30 @@
+
+.header_footer {
+    width: 100%;
+    background-color:var(--primary-color);
+    color: var(--theme-color);
+    padding: 25px;
+}
+
+.header_footer .group-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.header_footer .group-2 {
+    text-align: center;
+    padding: 15px;
+}
+
+.social_network i{
+    color: var(--theme-color);
+    font-size: 25px;
+    padding: 10px;
+    
+}
+
